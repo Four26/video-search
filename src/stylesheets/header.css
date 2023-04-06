@@ -1,0 +1,51 @@
+.header-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container {
+    font-family: 'Roboto', sans-serif;
+    width: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: grey 1px solid;
+}
+
+.magnifying-glass {
+    position: absolute;
+    top: 50%;
+    right: 1px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: grey;
+}
+
+.magnifying-glass:hover{
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+
+.video-container{
+    width: 100%;
+    padding: 20px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,8 @@
+.video-related {
+    width: 500px;
+    height: 360px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

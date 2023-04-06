@@ -1,0 +1,57 @@
+.comment-container{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.comment-container form {
+    width: 500px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.comment-container form input{
+    width: 90%;
+    border-style: none none solid none;
+    border-style: none none solid none;
+    outline: none;
+    margin-top: 20px;
+}
+
+.button-container{
+    width: 90%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.button-container button{
+    cursor: pointer;
+}
+
+.cancel{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    background-color: white;
+}
+
+.cancel:hover{
+    background-color: #e6e6e6;
+    transition: 0.3s ease-in-out;
+}
+
+.submit{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    color: grey;
+}

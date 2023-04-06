@@ -1,0 +1,24 @@
+.video-item{
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    width: 90%;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.video-item img{
+    border-radius: 10px;
+}
+
+.video-item h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.video-item p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    margin: 10px 0;
+}
