@@ -33,7 +33,10 @@ const Comment = ({ onAddComment, comments, selectedVideo }) => {
             </form>
             <div className="comments">
                 {filteredComments.map((comment, index) => (
-                    <p key={index}>{comment.text}</p>
+                    <div>
+                        <p key={index}>{comment.text}</p>
+                        <p>{comment.timestamp}</p>
+                    </div>
                 ))}
             </div>
         </div>

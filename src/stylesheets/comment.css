@@ -1,4 +1,5 @@
 .comment-container{
+    margin-top: 20px;
     width: 100%;
     height: 300px;
     display: flex;
@@ -54,4 +55,8 @@
     border: none;
     border-radius: 20px;
     color: grey;
+}
+
+.comments p{
+    margin: 0;
 }

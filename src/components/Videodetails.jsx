@@ -1,10 +1,11 @@
 import React from 'react';
+import '../stylesheets/videodetails.css';
 
 const Videodetails = ({ video }) => {
     return (
         <div>
             {video ? (
-                <div>
+                <div className='details-container'>
                     <h2>{video.title}</h2>
                     <p>{video.description}</p>
                     <p>{video.channel}</p>

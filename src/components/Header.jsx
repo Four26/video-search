@@ -40,7 +40,15 @@ const Header = () => {
         const newComment = {
             text: comment,
             videoId: selectedVideo.id,
-            timestamp: new Date().toISOString(),
+            timestamp: new Date().toLocaleString('en-US', {
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+                hour: 'numeric',
+                minute: 'numeric',
+                hour12: true,
+                timeZone: 'Asia/Taipei'
+            }),
         };
         setComments([...comments, newComment]); // add new comment to comments array
     };
